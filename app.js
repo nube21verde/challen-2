@@ -1,5 +1,4 @@
-// Lista inicial de amigos
-let amigos = ["Marco", "Leydi", "Larry", "Flor", "Roman", "Nicole"];
+let amigos = [];
 
 // Mostrar lista al cargar
 document.addEventListener("DOMContentLoaded", mostrarLista);
@@ -38,7 +37,7 @@ function mostrarLista() {
 
         // Botón de eliminar
         let botonEliminar = document.createElement("button");
-        botonEliminar.textContent = "❌";
+        botonEliminar.textContent = "";
         botonEliminar.style.cursor = "pointer";
         botonEliminar.style.background = "transparent";
         botonEliminar.style.border = "none";
@@ -72,7 +71,7 @@ function sortearAmigo() {
     let amigoSorteado = amigos[indiceAleatorio];
 
     document.getElementById("resultado").innerHTML =
-        `🎉 El amigo secreto es: <strong>${amigoSorteado}</strong>`;
+        ` El amigo secreto es: <strong>${amigoSorteado}</strong>`;
 }
 
 
