@@ -37,7 +37,8 @@ function mostrarLista() {
 
         // Botón de eliminar
         let botonEliminar = document.createElement("button");
-        botonEliminar.textContent = "";
+        botonEliminar.textContent = "❌";
+        botonEliminar.title = "Eliminar";
         botonEliminar.style.cursor = "pointer";
         botonEliminar.style.background = "transparent";
         botonEliminar.style.border = "none";
@@ -71,7 +72,6 @@ function sortearAmigo() {
     let amigoSorteado = amigos[indiceAleatorio];
 
     document.getElementById("resultado").innerHTML =
-        ` El amigo secreto es: <strong>${amigoSorteado}</strong>`;
+        `El amigo secreto es: <strong>${amigoSorteado}</strong>`;
 }
-
 
