@@ -17,7 +17,7 @@ Ideal para practicar conceptos básicos de JavaScript, manipulación del DOM y m
 ##  Instalación y uso
 
 1. **Abrir el proyecto**:
-   git clone https://github.com/usuario/amigo-secreto.git
+ https://github.com/nube21verde/challen-2.git
 
    O descargar el archivo .zip y extraerlo.
 
